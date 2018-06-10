@@ -63,8 +63,8 @@ class AppGetCarsCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): void
     {
         $url = $this->buildUrl([
-            'year' => [2014, 2016],
-            'price' => [8000, 12500],
+            'year' => [2012, 2016],
+            'price' => [8000, 15000],
             'photos' => true,
             'engine' => [1500, 1600],
             'gear' => implode(',', [2,3,4,5]),

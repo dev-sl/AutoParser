@@ -32,16 +32,26 @@ class Car
      */
     private $site_id;
 
-    public function getId()
+    /**
+     * @return int
+     */
+    public function getId(): int
     {
         return $this->id;
     }
 
+    /**
+     * @return int
+     */
     public function getCarId(): int
     {
         return $this->car_id;
     }
 
+    /**
+     * @param int $car_id
+     * @return Car
+     */
     public function setCarId(int $car_id): self
     {
         $this->car_id = $car_id;
@@ -49,11 +59,18 @@ class Car
         return $this;
     }
 
+    /**
+     * @return int
+     */
     public function getSiteId(): int
     {
         return $this->site_id;
     }
 
+    /**
+     * @param int $site_id
+     * @return Car
+     */
     public function setSiteId(int $site_id): self
     {
         $this->site_id = $site_id;
