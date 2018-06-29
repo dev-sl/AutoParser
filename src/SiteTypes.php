@@ -9,7 +9,12 @@ namespace App;
 final class SiteTypes
 {
     /**
-     * @var int RST
+     * @var int
      */
     public const RST = 1;
+
+    /**
+     * @var int
+     */
+    public const AUTO_RIA = 2;
 }

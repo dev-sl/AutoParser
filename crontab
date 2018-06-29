@@ -1,0 +1,1 @@
+*/5 * * * * php /home/lion/www/autoparse/bin/console app:get-cars
